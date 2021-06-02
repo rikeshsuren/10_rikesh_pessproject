@@ -13,7 +13,14 @@ if (isset($_POST["btnDispatch"])){
 	if ($conn->connect_error) {
 		die("Connection failed: " .$conn->connect_error);
 	}
-	
+	$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	while ($row = $result->fetch_assoc()) {
+		$patrolcarArray[$row['patrolcar_id']] = $row['patrolcar_status_desc'];
+	}
+}
+$conn->close();
 	$patrolcarDispatched = $_POST["chkPatrolcar"];   // array of patrol car being dispatched from post bank
 	$numOfPatrolcarDispatched = count($patrolcarDispatched);
 	

@@ -63,7 +63,7 @@
 	font-size:15px;
 	font-family:Arial;
 	font-weight:normal;
-	color:#FFFFFF;
+	color:#ffffff;
 }.ContentStyle tr:last-child td{
 	border-width:0px 1px 0px 0px;
 }.ContentStyle tr td:last-child{
@@ -83,7 +83,7 @@
 	font-size:20px;
 	font-family:Arial;
 	font-weight:bold;
-	color:#ffffff;
+	color:#000000;
 }
 .ContentStyle tr:first-child:hover td{
 	background:-o-linear-gradient(bottom, #6E6E6DFF 5%, #BF9D7A 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6E6E6DFF), color-stop(1, #BF9D7A) );

@@ -1,4 +1,4 @@
-    #HeaderStyle {
+     #HeaderStyle {
       font: bold 11px/1.5em Verdana;
       float:left;
       width:100%;
@@ -17,7 +17,7 @@
       }
     #HeaderStyle a {
       float:left;
-      background:url("images/circle.png") no-repeat left top;
+      background:url("images/tableft21.gif") no-repeat left top;
       margin:0;
       padding:0 0 0 5px;
       text-decoration:none;
@@ -25,7 +25,7 @@
     #HeaderStyle a span {
       float:left;
       display:block;
-      background:url("images/circle.png") no-repeat right top;
+      background:url("images/tabright21.gif") no-repeat right top;
       padding:5px 15px 4px 6px;
       color:#FFF;
       }
